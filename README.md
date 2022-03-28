@@ -21,6 +21,7 @@ Book:
 ```
 
 1. Post "/book"
+
    Body:
    ```js
     {
@@ -29,11 +30,19 @@ Book:
     }
    ```
    Response: status 200 or Error
-2. Get "/book/:id" 
+   
+2. Get "/book/:id"
+
    id - id of the book
+   
    Response: Book or Error (404)
+   
 3. Get "/books"
+   
    Response: List of books
+   
 4. Delete "/book/:id" removeBook
+   
    id - id of the book
+   
    Response: status 200 or Error
