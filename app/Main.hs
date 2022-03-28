@@ -5,7 +5,6 @@ module Main where
 import Control.Monad.Trans (liftIO)
 import DB
 import Domain
-import Lib
 import Network.HTTP.Types.Status
 import Web.Scotty
 

@@ -2,7 +2,6 @@
 
 module DB where
 
-import Control.Monad.Trans (lift)
 import Database.SQLite.Simple
 import Database.SQLite.Simple.FromRow
 import Domain
